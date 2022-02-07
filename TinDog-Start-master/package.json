@@ -1,0 +1,12 @@
+{
+  "name": "TinDog-Start-master",
+  "version": "1.0.0",
+  "description": "TinDog Starting Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammet Ali Topcu",
+  "license": "ISC"
+}

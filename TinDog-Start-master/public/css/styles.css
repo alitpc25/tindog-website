@@ -1,0 +1,174 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 20%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#phoneImg {
+    width: 60%;
+    animation: mymove 4s infinite;
+    position: absolute;
+}
+
+@keyframes mymove {
+    50% {transform: rotate(20deg);}
+  }
+
+.btn {
+    margin:0 8px;
+}
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.featureIcons {
+    font-size: 4rem;
+    color: #ff8195;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 15%;
+}
+
+.fas:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: gray;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff8195;
+    color: white;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonialImg {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#press {
+    background-color: #ff8195;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 7%;
+}
+
+.pricingText {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.d-flex {
+    justify-content: center;
+    gap: 20px;
+    padding-top: 5%;
+}
+
+.card-header {
+    background-color: #FBF7F6;
+    font-size: 1.3rem;
+}
+
+.card {
+    width: 30%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cta {
+    background-color: #ff4c68;
+    margin-top: 5%;
+    padding: 8% 10%;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.downloadButtonBottom {
+    margin: 3%;
+    font-size: 1.5rem;
+}
+
+#footer {
+    padding: 5%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+@media (max-width:995px) {
+
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    #title {
+        text-align: center;
+    }
+
+    #phoneImg {
+        width: 50%;
+        padding-top: 10%;
+        position: relative;
+    }
+
+    .cardFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    #testimonials {
+        height: 300px;
+    }
+}
